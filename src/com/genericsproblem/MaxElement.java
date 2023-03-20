@@ -1,7 +1,7 @@
 package com.genericsproblem;
 
 public class MaxElement {
-    //interger
+    //integer element
     public void FindMaxInt(Integer a, Integer b, Integer c){
         int max = a;
         if((b.compareTo(max))>0)
