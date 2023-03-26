@@ -44,7 +44,9 @@ public class MaxElement<T extends Comparable<T>> {
         System.out.println("Maximum of "+x+", "+y+" and "+z+" is: "+max);
         return max;
     }
-
+    public static <T> void printMax(T x, T y, T z, T max){
+        System.out.println("Maximum of "+x+", "+y+" and "+z+" is: "+max);
+    }
     public static void main(String[] args) {
         Integer int1= 3, int2= 4, int3= 5;
         Float flt1=6.6f, flt2=8.8f, flt3=7.7f;
